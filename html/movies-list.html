@@ -32,7 +32,7 @@
                                 <span class="svg-content svg-fill-theme" data-svg="./images/svg/logo-part.svg"></span>
                             </span>
                             <span class="logo-text text-uppercase">
-                                <span>M</span>emico</span>
+                                <span>СМ</span>СмотриКино</span>
                         </span>
                     </a>
                     <button class="navbar-toggler" type="button">
@@ -45,9 +45,9 @@
                     <div class="navbar-collapse">
                         <ul class="navbar-nav">
                             <li class="nav-item nav-item-arrow-down nav-hover-show-sub">
-                                <a class="nav-link" href="#">Homepage</a>
+                                <a class="nav-link" href="#">Главная страница</a>
                                 <div class="nav-arrow"><i class="fas fa-chevron-down"></i></div>
-                                <ul class="collapse nav">
+                                <!-- <ul class="collapse nav">
                                     <li class="nav-item">
                                         <a class="nav-link" href="homepage-1.html">Homepage 1</a>
                                     </li>
@@ -57,14 +57,14 @@
                                     <li class="nav-item">
                                         <a class="nav-link" href="homepage-3.html">Homepage 3</a>
                                     </li>
-                                </ul>
+                                </ul> -->
                             </li>
                             <li class="nav-item nav-item-arrow-down nav-hover-show-sub">
-                                <a class="nav-link" href="#" data-role="nav-toggler">Pages</a>
+                                <a class="nav-link" href="#" data-role="nav-toggler">Страницы</a>
                                 <div class="nav-arrow"><i class="fas fa-chevron-down"></i></div>
                                 <ul class="collapse nav">
                                     <li class="nav-item nav-item-arrow-down nav-hover-show-sub">
-                                        <a class="nav-link" href="#" data-role="nav-toggler">Movies</a>
+                                        <a class="nav-link" href="#" data-role="nav-toggler">Фильмы</a>
                                         <div class="nav-arrow"><i class="fas fa-chevron-down"></i></div>
                                         <ul class="collapse nav">
                                             <li class="nav-item">
@@ -132,14 +132,14 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="movies-blocks.html">Movies</a>
+                                <a class="nav-link" href="movies-blocks.html">Фильмы</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contact-us.html">Contact us</a>
+                                <a class="nav-link" href="contact-us.html">Контакты</a>
                             </li>
                         </ul>
                         <div class="navbar-extra">
-                            <a class="btn-theme btn" href="#"><i class="fas fa-ticket-alt"></i>&nbsp;&nbsp;Buy Ticket</a>
+                            <a class="btn-theme btn" href="#"><i class="fas fa-ticket-alt"></i>&nbsp;&nbsp;Поиск</a>
                         </div>
                     </div>
                 </nav>
@@ -150,11 +150,11 @@
             <div class="d-background bg-black-30"></div>
             <div class="top-block top-inner container">
                 <div class="top-block-content">
-                    <h1 class="section-title">Movies list</h1>
+                    <h1 class="section-title">Лучшие фильмы</h1>
                     <div class="page-breadcrumbs">
-                        <a class="content-link" href="#">Home</a>
+                        <a class="content-link" href="#">Главная</a>
                         <span class="text-theme mx-2"><i class="fas fa-chevron-right"></i></span>
-                        <span>Movies</span>
+                        <span>Фильмы</span>
                     </div>
                 </div>
             </div>
@@ -168,33 +168,33 @@
                                 <div class="row form-grid">
                                     <div class="col-sm-6 col-lg-3">
                                         <div class="input-view-flat input-group">
-                                            <select class="form-control" name="genre">
-                                                <option selected="true">genre</option>
-                                                <option>action</option>
-                                                <option>adventure</option>
-                                                <option>comedy</option>
-                                                <option>crime</option>
-                                                <option>detective</option>
-                                                <option>drama</option>
-                                                <option>fantasy</option>
-                                                <option>melodrama</option>
-                                                <option>romance</option>
-                                                <option>superhero</option>
-                                                <option>supernatural</option>
-                                                <option>thriller</option>
-                                                <option>sport</option>
-                                                <option>historical</option>
-                                                <option>horror</option>
-                                                <option>musical</option>
-                                                <option>sci-fi</option>
-                                                <option>war</option>
-                                                <option>western</option>
+                                            <select class="form-control" name="Жанр">
+                                                <option selected="true">Жанр</option>
+                                                <option>Экшн</option>
+                                                <option>Приключения</option>
+                                                <option>Комедия</option>
+                                                <!-- <option>crime</option> -->
+                                                <option>Детектив</option>
+                                                <option>Драма</option>
+                                                <option>Фэнтези</option>
+                                                <option>Мелодрама</option>
+                                                <!-- <option>romance</option> -->
+                                                <option>Супергерои</option>
+                                                <!-- <option>supernatural</option> -->
+                                                <option>Триллер</option>
+                                                <!-- <option>sport</option> -->
+                                                <!-- <option>historical</option> -->
+                                                <option>Ужасы</option>
+                                                <!-- <option>musical</option> -->
+                                                <!-- <option>sci-fi</option> -->
+                                                <!-- <option>war</option> -->
+                                                <!-- <option>western</option> -->
                                             </select>
                                         </div>
                                     </div>
                                     <div class="col-sm-6 col-lg-3">
                                         <div class="input-view-flat date input-group" data-toggle="datetimepicker" data-target="#release-year-field">
-                                            <input class="datetimepicker-input form-control" id="release-year-field" name="releaseYear" type="text" placeholder="release year" data-target="#release-year-field" data-date-format="Y" />
+                                            <input class="datetimepicker-input form-control" id="release-year-field" name="releaseYear" type="text" placeholder="Дата релиза" data-target="#release-year-field" data-date-format="Y" />
                                             <div class="input-group-append">
                                                 <span class="input-group-text"><i class="fas fa-calendar-alt"></i></span>
                                             </div>
@@ -203,10 +203,10 @@
                                     <div class="col-sm-6 col-lg-3">
                                         <div class="input-view-flat input-group">
                                             <select class="form-control" name="sortBy">
-                                                <option selected="true">sort by</option>
-                                                <option>name</option>
-                                                <option>release year</option>
-                                                <option>rating</option>
+                                                <option selected="true">Сортировка по</option>
+                                                <option>Наименование</option>
+                                                <option>Дата выхода</option>
+                                                <option>Рейтинг</option>
                                             </select>
                                         </div>
                                     </div>
@@ -244,8 +244,8 @@
                             <a class="content-link" href="movie-info-sidebar-right.html">Первый Мститель: Другая Война</a>
                         </h4>
                         <div class="entity-category">
-                            <a class="content-link" href="movies-blocks.html">comedy</a>,
-                            <a class="content-link" href="movies-blocks.html">detective</a>
+                            <a class="content-link" href="movies-blocks.html">Супергерои</a>,
+                            <a class="content-link" href="movies-blocks.html">Детектив</a>
                         </div>
                         <div class="entity-info">
                             <div class="info-lines">
@@ -259,12 +259,16 @@
                                     <span class="info-text">130</span>
                                     <span class="info-rest">&nbsp;min</span>
                                 </div>
+                                <div class="info info-short">
+                                    <span class="text-theme info-icon"><i class="fas fa-calendar-alt"></i></span>
+                                    <span class="info-text">Тут постаивть дату резила</span>
+                                </div>
                             </div>
                         </div>
-                        <p class="text-short entity-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur ultrices justo a pellentesque. Praesent venenatis dolor nec tempus lacinia. Donec ac condimentum dolor. Nullam sit amet nisl hendrerit, pharetra nulla convallis, malesuada diam. Donec ornare nisl eu lectus rhoncus, at malesuada metus rutrum. Aliquam a nisl vulputate, sodales ipsum aliquam, tempus purus. Suspendisse convallis, lectus nec vehicula sollicitudin, lorem sapien rhoncus dolor, vel lacinia urna velit ullamcorper nisi. Phasellus pellentesque, magna nec gravida feugiat, est magna suscipit ligula, vel porttitor nunc enim at nibh. Sed varius sit amet leo vitae consequat.
+                        <p class="text-short entity-text">Эпический боевик киностудии Marvel о борьбе Капитана Америка со злом. Пять лучших графических киностудий работали над спецэффектами. Масштабные съемки на фоне самых известных достопримечательностей столицы США. Сцены баталий сняты на настоящем ракетоносце.
                         </p>
                     </div>
-                    <div class="entity-extra">
+                    <!-- <div class="entity-extra">
                         <div class="text-uppercase entity-extra-title">Showtime</div>
                         <div class="entity-showtime">
                             <div class="showtime-wrap">
@@ -288,12 +292,12 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </article>
                 <article class="movie-line-entity">
                     <div class="entity-poster" data-role="hover-wrap">
                         <div class="embed-responsive embed-responsive-poster">
-                            <img class="embed-responsive-item" src="http://via.placeholder.com/340x510" alt="" />
+                            <img class="embed-responsive-item" src="images/posters/slavnye-parny.jpg" alt="" />
                         </div>
                         <div class="d-over bg-theme-lighted collapse animated faster" data-show-class="fadeIn show" data-hide-class="fadeOut show">
                             <div class="entity-play">
@@ -305,30 +309,35 @@
                     </div>
                     <div class="entity-content">
                         <h4 class="entity-title">
-                            <a class="content-link" href="movie-info-sidebar-right.html">The match</a>
+                            <a class="content-link" href="movie-info-sidebar-right.html">Славные парни</a>
                         </h4>
                         <div class="entity-category">
-                            <a class="content-link" href="movies-blocks.html">romance</a>,
-                            <a class="content-link" href="movies-blocks.html">historical</a>
+                            <a class="content-link" href="movies-blocks.html">Комедия</a>,
+                            <!-- <a class="content-link" href="movies-blocks.html">historical</a> -->
                         </div>
                         <div class="entity-info">
                             <div class="info-lines">
                                 <div class="info info-short">
                                     <span class="text-theme info-icon"><i class="fas fa-star"></i></span>
-                                    <span class="info-text">8,1</span>
+                                    <span class="info-text">7,3</span>
                                     <span class="info-rest">/10</span>
                                 </div>
                                 <div class="info info-short">
                                     <span class="text-theme info-icon"><i class="fas fa-clock"></i></span>
-                                    <span class="info-text">90</span>
+                                    <span class="info-text">115</span>
                                     <span class="info-rest">&nbsp;min</span>
+                                </div>
+                                <div class="info info-short">
+                                    <span class="text-theme info-icon"><i class="fas fa-calendar-alt"></i></span>
+                                    <span class="info-text">Тут постаивть дату резила</span>
                                 </div>
                             </div>
                         </div>
-                        <p class="text-short entity-text">Aenean molestie turpis eu aliquam bibendum. Nulla facilisi. Vestibulum quis risus in lorem suscipit tempor. Morbi consectetur enim vitae justo finibus consectetur. Mauris volutpat nunc dui, quis condimentum dolor efficitur et. Phasellus rhoncus porta nunc eu fermentum. Nullam vitae erat hendrerit, tempor arcu eget, eleifend tortor.
+                        <p class="text-short entity-text"> Что бывает, когда напарником брутального костолома становится субтильный лопух? Наемный охранник Джексон Хили и частный детектив Холланд Марч вынуждены работать в паре, чтобы распутать плевое дело о пропавшей девушке, которое оборачивается преступлением века.
+                            Смогут ли парни разгадать сложный ребус, если у каждого из них – свои, весьма индивидуальные методы.                          
                         </p>
                     </div>
-                    <div class="entity-extra">
+                    <!-- <div class="entity-extra">
                         <div class="text-uppercase entity-extra-title">Showtime</div>
                         <div class="entity-showtime">
                             <div class="showtime-wrap">
@@ -352,12 +361,12 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </article>
                 <article class="movie-line-entity">
                     <div class="entity-poster" data-role="hover-wrap">
                         <div class="embed-responsive embed-responsive-poster">
-                            <img class="embed-responsive-item" src="http://via.placeholder.com/340x510" alt="" />
+                            <img class="embed-responsive-item" src="images/posters/matrix.jpg" alt="" />
                         </div>
                         <div class="d-over bg-theme-lighted collapse animated faster" data-show-class="fadeIn show" data-hide-class="fadeOut show">
                             <div class="entity-play">
@@ -369,80 +378,39 @@
                     </div>
                     <div class="entity-content">
                         <h4 class="entity-title">
-                            <a class="content-link" href="movie-info-sidebar-right.html">Watchers</a>
+                            <a class="content-link" href="movie-info-sidebar-right.html">Матрица</a>
                         </h4>
                         <div class="entity-category">
-                            <a class="content-link" href="movies-blocks.html">fantasy</a>,
-                            <a class="content-link" href="movies-blocks.html">historical</a>
-                        </div>
-                        <div class="entity-info">
-                            <div class="info-lines">
-                                <div class="info info-short">
-                                    <span class="text-theme info-icon"><i class="fas fa-calendar-alt"></i></span>
-                                    <span class="info-text">29 mar 2018</span>
-                                </div>
-                                <div class="info info-short">
-                                    <span class="text-theme info-icon"><i class="fas fa-clock"></i></span>
-                                    <span class="info-text">110</span>
-                                    <span class="info-rest">&nbsp;min</span>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="text-short entity-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur ultrices justo a pellentesque. Praesent venenatis dolor nec tempus lacinia. Donec ac condimentum dolor. Nullam sit amet nisl hendrerit, pharetra nulla convallis, malesuada diam. Donec ornare nisl eu lectus rhoncus, at malesuada metus rutrum. Aliquam a nisl vulputate, sodales ipsum aliquam, tempus purus. Suspendisse convallis, lectus nec vehicula sollicitudin, lorem sapien rhoncus dolor, vel lacinia urna velit ullamcorper nisi. Phasellus pellentesque, magna nec gravida feugiat, est magna suscipit ligula, vel porttitor nunc enim at nibh. Sed varius sit amet leo vitae consequat.
-                        </p>
-                    </div>
-                    <div class="entity-extra">
-                        <div class="text-uppercase entity-extra-title">Comming soon</div>
-                        <div></div>
-                    </div>
-                </article>
-                <article class="movie-line-entity">
-                    <div class="entity-poster" data-role="hover-wrap">
-                        <div class="embed-responsive embed-responsive-poster">
-                            <img class="embed-responsive-item" src="http://via.placeholder.com/340x510" alt="" />
-                        </div>
-                        <div class="d-over bg-theme-lighted collapse animated faster" data-show-class="fadeIn show" data-hide-class="fadeOut show">
-                            <div class="entity-play">
-                                <a class="action-icon-theme action-icon-bordered rounded-circle" href="https://www.youtube.com/watch?v=d96cjJhvlMA" data-magnific-popup="iframe">
-                                    <span class="icon-content"><i class="fas fa-play"></i></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="entity-content">
-                        <h4 class="entity-title">
-                            <a class="content-link" href="movie-info-sidebar-right.html">In to the deep</a>
-                        </h4>
-                        <div class="entity-category">
-                            <a class="content-link" href="movies-blocks.html">historical</a>,
-                            <a class="content-link" href="movies-blocks.html">adventure</a>
+                            <a class="content-link" href="movies-blocks.html">Фантастика, боевик</a>,
+                            <!-- <a class="content-link" href="movies-blocks.html">historical</a> -->
                         </div>
                         <div class="entity-info">
                             <div class="info-lines">
                                 <div class="info info-short">
                                     <span class="text-theme info-icon"><i class="fas fa-star"></i></span>
-                                    <span class="info-text">9,8</span>
+                                    <span class="info-text">8,5</span>
                                     <span class="info-rest">/10</span>
                                 </div>
                                 <div class="info info-short">
                                     <span class="text-theme info-icon"><i class="fas fa-clock"></i></span>
-                                    <span class="info-text">169</span>
+                                    <span class="info-text">136</span>
                                     <span class="info-rest">&nbsp;min</span>
+                                </div>
+                                <div class="info info-short">
+                                    <span class="text-theme info-icon"><i class="fas fa-calendar-alt"></i></span>
+                                    <span class="info-text">Тут постаивть дату резила</span>
                                 </div>
                             </div>
                         </div>
-                        <p class="text-short entity-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur ultrices justo a pellentesque. Praesent venenatis dolor nec tempus lacinia. Donec ac condimentum dolor. Nullam sit amet nisl hendrerit, pharetra nulla convallis, malesuada diam. Donec ornare nisl eu lectus rhoncus, at malesuada metus rutrum. Aliquam a nisl vulputate, sodales ipsum aliquam, tempus purus. Suspendisse convallis, lectus nec vehicula sollicitudin, lorem sapien rhoncus dolor, vel lacinia urna velit ullamcorper nisi. Phasellus pellentesque, magna nec gravida feugiat, est magna suscipit ligula, vel porttitor nunc enim at nibh. Sed varius sit amet leo vitae consequat.
+                        <p class="text-short entity-text">Жизнь Томаса Андерсона разделена на две части: днём он — самый обычный офисный работник, получающий нагоняи от начальства, а ночью превращается в хакера по имени Нео, и нет места в сети, куда он бы не смог проникнуть. Но однажды всё меняется. Томас узнаёт ужасающую правду о реальности.
+
                         </p>
-                    </div>
-                    <div class="entity-extra">
-                        <div class="text-uppercase entity-extra-title">In archive</div>
-                        <div></div>
                     </div>
                 </article>
                 <article class="movie-line-entity">
                     <div class="entity-poster" data-role="hover-wrap">
                         <div class="embed-responsive embed-responsive-poster">
-                            <img class="embed-responsive-item" src="http://via.placeholder.com/340x510" alt="" />
+                            <img class="embed-responsive-item" src="images/posters/nachalo.jpg" alt="" />
                         </div>
                         <div class="d-over bg-theme-lighted collapse animated faster" data-show-class="fadeIn show" data-hide-class="fadeOut show">
                             <div class="entity-play">
@@ -454,37 +422,40 @@
                     </div>
                     <div class="entity-content">
                         <h4 class="entity-title">
-                            <a class="content-link" href="movie-info-sidebar-right.html">Iron planet</a>
+                            <a class="content-link" href="movie-info-sidebar-right.html">Начало</a>
                         </h4>
                         <div class="entity-category">
-                            <a class="content-link" href="movies-blocks.html">western</a>
+                            <a class="content-link" href="movies-blocks.html">Фантастика</a>,
+                            <a class="content-link" href="movies-blocks.html">боевик</a>
                         </div>
                         <div class="entity-info">
                             <div class="info-lines">
                                 <div class="info info-short">
                                     <span class="text-theme info-icon"><i class="fas fa-star"></i></span>
-                                    <span class="info-text">7,8</span>
+                                    <span class="info-text">8,7</span>
                                     <span class="info-rest">/10</span>
                                 </div>
                                 <div class="info info-short">
                                     <span class="text-theme info-icon"><i class="fas fa-clock"></i></span>
-                                    <span class="info-text">96</span>
+                                    <span class="info-text">148</span>
                                     <span class="info-rest">&nbsp;min</span>
+                                </div>
+                                <div class="info info-short">
+                                    <span class="text-theme info-icon"><i class="fas fa-calendar-alt"></i></span>
+                                    <span class="info-text">Тут постаивть дату резила</span>
                                 </div>
                             </div>
                         </div>
-                        <p class="text-short entity-text">Vivamus dolor ex, viverra ut facilisis et, euismod et quam. Aliquam sit amet mattis velit, ullamcorper venenatis magna. Aenean ac maximus magna. Proin pharetra venenatis tortor, ac suscipit est ultrices vitae. Mauris vulputate, nisl in lacinia dignissim, libero justo vehicula arcu, a porttitor quam erat ac dui. Suspendisse potenti. Maecenas sit amet interdum sem. Vestibulum sit amet volutpat mauris, ut gravida velit. Donec ultricies, eros ut finibus volutpat, enim ligula tempus enim, non bibendum libero tellus at velit. Aenean placerat egestas ullamcorper.
+                        <p class="text-short entity-text">Кобб – талантливый вор, лучший из лучших в опасном искусстве извлечения: он крадет ценные секреты из глубин подсознания во время сна, когда человеческий разум наиболее уязвим. Редкие способности Кобба сделали его ценным игроком в привычном к предательству мире промышленного шпионажа, но они же превратили его в извечного беглеца и лишили всего, что он когда-либо любил.
+                            И вот у Кобба появляется шанс исправить ошибки. Его последнее дело может вернуть все назад, но для этого ему нужно совершить невозможное – инициацию. Вместо идеальной кражи Кобб и его команда спецов должны будут провернуть обратное. Теперь их задача – не украсть идею, а внедрить ее. Если у них получится, это и станет идеальным преступлением.
+                            Но никакое планирование или мастерство не могут подготовить команду к встрече с опасным противником, который, кажется, предугадывает каждый их ход. Врагом, увидеть которого мог бы лишь Кобб.
                         </p>
-                    </div>
-                    <div class="entity-extra">
-                        <div class="text-uppercase entity-extra-title">In archive</div>
-                        <div></div>
                     </div>
                 </article>
                 <article class="movie-line-entity">
                     <div class="entity-poster" data-role="hover-wrap">
                         <div class="embed-responsive embed-responsive-poster">
-                            <img class="embed-responsive-item" src="http://via.placeholder.com/340x510" alt="" />
+                            <img class="embed-responsive-item" src="images/posters/ring.jpg" alt="" />
                         </div>
                         <div class="d-over bg-theme-lighted collapse animated faster" data-show-class="fadeIn show" data-hide-class="fadeOut show">
                             <div class="entity-play">
@@ -496,36 +467,39 @@
                     </div>
                     <div class="entity-content">
                         <h4 class="entity-title">
-                            <a class="content-link" href="movie-info-sidebar-right.html">Monday invasion</a>
+                            <a class="content-link" href="movie-info-sidebar-right.html">Звонок</a>
                         </h4>
                         <div class="entity-category">
-                            <a class="content-link" href="movies-blocks.html">sport</a>
+                            <a class="content-link" href="movies-blocks.html">Ужасы, триллер</a>
                         </div>
                         <div class="entity-info">
                             <div class="info-lines">
                                 <div class="info info-short">
-                                    <span class="text-theme info-icon"><i class="fas fa-calendar-alt"></i></span>
-                                    <span class="info-text">25 jul 2017</span>
+                                    <span class="text-theme info-icon"><i class="fas fa-star"></i></span>
+                                    <span class="info-text">7,3</span>
+                                    <span class="info-rest">/10</span>
                                 </div>
                                 <div class="info info-short">
                                     <span class="text-theme info-icon"><i class="fas fa-clock"></i></span>
-                                    <span class="info-text">130</span>
+                                    <span class="info-text">115</span>
                                     <span class="info-rest">&nbsp;min</span>
+                                </div>
+                                <div class="info info-short">
+                                    <span class="text-theme info-icon"><i class="fas fa-calendar-alt"></i></span>
+                                    <span class="info-text">Тут постаивть дату резила</span>
                                 </div>
                             </div>
                         </div>
-                        <p class="text-short entity-text">Aenean molestie turpis eu aliquam bibendum. Nulla facilisi. Vestibulum quis risus in lorem suscipit tempor. Morbi consectetur enim vitae justo finibus consectetur. Mauris volutpat nunc dui, quis condimentum dolor efficitur et. Phasellus rhoncus porta nunc eu fermentum. Nullam vitae erat hendrerit, tempor arcu eget, eleifend tortor.
+                        <p class="text-short entity-text">
+                            Телефонный звонок раздаётся после просмотра некой загадочной видеокассеты. Жертве даётся ровно семь дней, а после следует неминуемая смерть.
+                            Журналистка Рэйчел расследует загадочные смерти молодых людей, и случайно кассета-убийца попадает в руки к её маленькому сыну, над которым теперь нависает смертельная угроза. У женщины есть только семь дней, чтобы разобраться в происходящем и спасти своего мальчика.
                         </p>
-                    </div>
-                    <div class="entity-extra">
-                        <div class="text-uppercase entity-extra-title">Comming soon</div>
-                        <div></div>
                     </div>
                 </article>
                 <article class="movie-line-entity">
                     <div class="entity-poster" data-role="hover-wrap">
                         <div class="embed-responsive embed-responsive-poster">
-                            <img class="embed-responsive-item" src="http://via.placeholder.com/340x510" alt="" />
+                            <img class="embed-responsive-item" src="images/posters/avengers.jpg" alt="" />
                         </div>
                         <div class="d-over bg-theme-lighted collapse animated faster" data-show-class="fadeIn show" data-hide-class="fadeOut show">
                             <div class="entity-play">
@@ -537,11 +511,55 @@
                     </div>
                     <div class="entity-content">
                         <h4 class="entity-title">
-                            <a class="content-link" href="movie-info-sidebar-right.html">Cloud 10</a>
+                            <a class="content-link" href="movie-info-sidebar-right.html">Мстители: Война бесконечности</a>
                         </h4>
                         <div class="entity-category">
-                            <a class="content-link" href="movies-blocks.html">drama</a>,
-                            <a class="content-link" href="movies-blocks.html">superhero</a>
+                            <a class="content-link" href="movies-blocks.html">Супергерои, боевик</a>
+                        </div>
+                        <div class="entity-info">
+                            <div class="info-lines">
+                                <div class="info info-short">
+                                    <span class="text-theme info-icon"><i class="fas fa-star"></i></span>
+                                    <span class="info-text">8,0</span>
+                                    <span class="info-rest">/10</span>
+                                </div>
+                                <div class="info info-short">
+                                    <span class="text-theme info-icon"><i class="fas fa-clock"></i></span>
+                                    <span class="info-text">149</span>
+                                    <span class="info-rest">&nbsp;min</span>
+                                </div>
+                                <div class="info info-short">
+                                    <span class="text-theme info-icon"><i class="fas fa-calendar-alt"></i></span>
+                                    <span class="info-text">Тут поставить дату выхода</span>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <p class="text-short entity-text">Пока Мстители и их союзники продолжают защищать мир от различных опасностей, с которыми не смог бы справиться один супергерой, новая угроза возникает из космоса: Танос. Межгалактический тиран преследует цель собрать все шесть Камней Бесконечности - артефакты невероятной силы, с помощью которых можно менять реальность по своему желанию. Всё, с чем Мстители сталкивались ранее, вело к этому моменту – судьба Земли никогда ещё не была столь неопределённой.
+
+                        </p>
+                    </div>
+                </article>
+                <article class="movie-line-entity">
+                    <div class="entity-poster" data-role="hover-wrap">
+                        <div class="embed-responsive embed-responsive-poster">
+                            <img class="embed-responsive-item" src="images/posters/HP1.jpg" alt="" />
+                        </div>
+                        <div class="d-over bg-theme-lighted collapse animated faster" data-show-class="fadeIn show" data-hide-class="fadeOut show">
+                            <div class="entity-play">
+                                <a class="action-icon-theme action-icon-bordered rounded-circle" href="https://www.youtube.com/watch?v=d96cjJhvlMA" data-magnific-popup="iframe">
+                                    <span class="icon-content"><i class="fas fa-play"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="entity-content">
+                        <h4 class="entity-title">
+                            <a class="content-link" href="movie-info-sidebar-right.html">Гарри Поттер и Дары Смерти. Часть 1</a>
+                        </h4>
+                        <div class="entity-category">
+                            <a class="content-link" href="movies-blocks.html">Драма</a>,
+                            <a class="content-link" href="movies-blocks.html">Фэнтези</a>
                         </div>
                         <div class="entity-info">
                             <div class="info-lines">
@@ -555,62 +573,20 @@
                                     <span class="info-text">110</span>
                                     <span class="info-rest">&nbsp;min</span>
                                 </div>
-                            </div>
-                        </div>
-                        <p class="text-short entity-text">Vivamus dolor ex, viverra ut facilisis et, euismod et quam. Aliquam sit amet mattis velit, ullamcorper venenatis magna. Aenean ac maximus magna. Proin pharetra venenatis tortor, ac suscipit est ultrices vitae. Mauris vulputate, nisl in lacinia dignissim, libero justo vehicula arcu, a porttitor quam erat ac dui. Suspendisse potenti. Maecenas sit amet interdum sem. Vestibulum sit amet volutpat mauris, ut gravida velit. Donec ultricies, eros ut finibus volutpat, enim ligula tempus enim, non bibendum libero tellus at velit. Aenean placerat egestas ullamcorper.
-                        </p>
-                    </div>
-                    <div class="entity-extra">
-                        <div class="text-uppercase entity-extra-title">In archive</div>
-                        <div></div>
-                    </div>
-                </article>
-                <article class="movie-line-entity">
-                    <div class="entity-poster" data-role="hover-wrap">
-                        <div class="embed-responsive embed-responsive-poster">
-                            <img class="embed-responsive-item" src="http://via.placeholder.com/340x510" alt="" />
-                        </div>
-                        <div class="d-over bg-theme-lighted collapse animated faster" data-show-class="fadeIn show" data-hide-class="fadeOut show">
-                            <div class="entity-play">
-                                <a class="action-icon-theme action-icon-bordered rounded-circle" href="https://www.youtube.com/watch?v=d96cjJhvlMA" data-magnific-popup="iframe">
-                                    <span class="icon-content"><i class="fas fa-play"></i></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="entity-content">
-                        <h4 class="entity-title">
-                            <a class="content-link" href="movie-info-sidebar-right.html">Dady is back</a>
-                        </h4>
-                        <div class="entity-category">
-                            <a class="content-link" href="movies-blocks.html">drama</a>,
-                            <a class="content-link" href="movies-blocks.html">comedy</a>
-                        </div>
-                        <div class="entity-info">
-                            <div class="info-lines">
                                 <div class="info info-short">
                                     <span class="text-theme info-icon"><i class="fas fa-calendar-alt"></i></span>
-                                    <span class="info-text">12 jan 2017</span>
-                                </div>
-                                <div class="info info-short">
-                                    <span class="text-theme info-icon"><i class="fas fa-clock"></i></span>
-                                    <span class="info-text">140</span>
-                                    <span class="info-rest">&nbsp;min</span>
+                                    <span class="info-text">Тут поставить дату выхода</span>
                                 </div>
                             </div>
                         </div>
-                        <p class="text-short entity-text">In luctus ac nisi vel vulputate. Sed blandit augue ut ex eleifend, ac posuere dolor sollicitudin. Mauris tempus euismod mauris id semper. Vestibulum ut vulputate elit, id ultricies libero. Aenean laoreet mi augue, at iaculis nisi aliquam eu. Quisque nec ipsum vehicula diam egestas porttitor eu vitae ex. Curabitur auctor tortor elementum leo faucibus, sit amet imperdiet ante maximus. Nulla viverra tortor dignissim purus placerat dapibus nec ut orci. Quisque efficitur nulla quis pulvinar dapibus. Phasellus sodales tortor sit amet sagittis condimentum. Donec ac ultricies ex. In odio leo, rhoncus aliquam bibendum sit amet, varius sit amet nisl.
+                        <p class="text-short entity-text">Гарри Поттера ждёт самое страшное испытание в жизни — смертельная схватка с Волан-де-Мортом. Ждать помощи не от кого — Гарри одинок, как никогда… Друзья и враги Гарри предстают в совершенно неожиданном свете. Граница между Добром и Злом становится всё призрачнее…
                         </p>
-                    </div>
-                    <div class="entity-extra">
-                        <div class="text-uppercase entity-extra-title">Comming soon</div>
-                        <div></div>
                     </div>
                 </article>
                 <article class="movie-line-entity">
                     <div class="entity-poster" data-role="hover-wrap">
                         <div class="embed-responsive embed-responsive-poster">
-                            <img class="embed-responsive-item" src="http://via.placeholder.com/340x510" alt="" />
+                            <img class="embed-responsive-item" src="Images/posters/HP2.jpg" alt="" />
                         </div>
                         <div class="d-over bg-theme-lighted collapse animated faster" data-show-class="fadeIn show" data-hide-class="fadeOut show">
                             <div class="entity-play">
@@ -622,38 +598,39 @@
                     </div>
                     <div class="entity-content">
                         <h4 class="entity-title">
-                            <a class="content-link" href="movie-info-sidebar-right.html">Deadman skull</a>
+                            <a class="content-link" href="movie-info-sidebar-right.html">Гарри Поттер и Дары Смерти. Часть 2</a>
                         </h4>
                         <div class="entity-category">
-                            <a class="content-link" href="movies-blocks.html">musical</a>,
-                            <a class="content-link" href="movies-blocks.html">melodrama</a>
+                            <a class="content-link" href="movies-blocks.html">Драма</a>,
+                            <a class="content-link" href="movies-blocks.html">Фэнтези</a>
                         </div>
                         <div class="entity-info">
                             <div class="info-lines">
                                 <div class="info info-short">
                                     <span class="text-theme info-icon"><i class="fas fa-star"></i></span>
-                                    <span class="info-text">7,2</span>
+                                    <span class="info-text">8,1</span>
                                     <span class="info-rest">/10</span>
                                 </div>
                                 <div class="info info-short">
                                     <span class="text-theme info-icon"><i class="fas fa-clock"></i></span>
-                                    <span class="info-text">100</span>
+                                    <span class="info-text">130</span>
                                     <span class="info-rest">&nbsp;min</span>
+                                </div>
+                                <div class="info info-short">
+                                    <span class="text-theme info-icon"><i class="fas fa-calendar-alt"></i></span>
+                                    <span class="info-text">Дата выхода</span>
                                 </div>
                             </div>
                         </div>
-                        <p class="text-short entity-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur ultrices justo a pellentesque. Praesent venenatis dolor nec tempus lacinia. Donec ac condimentum dolor. Nullam sit amet nisl hendrerit, pharetra nulla convallis, malesuada diam. Donec ornare nisl eu lectus rhoncus, at malesuada metus rutrum. Aliquam a nisl vulputate, sodales ipsum aliquam, tempus purus. Suspendisse convallis, lectus nec vehicula sollicitudin, lorem sapien rhoncus dolor, vel lacinia urna velit ullamcorper nisi. Phasellus pellentesque, magna nec gravida feugiat, est magna suscipit ligula, vel porttitor nunc enim at nibh. Sed varius sit amet leo vitae consequat.
+                        <p class="text-short entity-text">В грандиозной последней главе битва между добрыми и злыми силами мира волшебников перерастает во всеобщую войну. Ставки ещё никогда не были так высоки, а поиск убежища — столь сложен. И, быть может, именно Гарри Поттеру придется пожертвовать всем в финальном сражении с Волан-де-Мортом.
+
                         </p>
-                    </div>
-                    <div class="entity-extra">
-                        <div class="text-uppercase entity-extra-title">In archive</div>
-                        <div></div>
                     </div>
                 </article>
                 <article class="movie-line-entity">
                     <div class="entity-poster" data-role="hover-wrap">
                         <div class="embed-responsive embed-responsive-poster">
-                            <img class="embed-responsive-item" src="http://via.placeholder.com/340x510" alt="" />
+                            <img class="embed-responsive-item" src="Images/posters/pet.jpg" alt="" />
                         </div>
                         <div class="d-over bg-theme-lighted collapse animated faster" data-show-class="fadeIn show" data-hide-class="fadeOut show">
                             <div class="entity-play">
@@ -665,59 +642,39 @@
                     </div>
                     <div class="entity-content">
                         <h4 class="entity-title">
-                            <a class="content-link" href="movie-info-sidebar-right.html">Fall</a>
+                            <a class="content-link" href="movie-info-sidebar-right.html">тайная жизнь домашних животных</a>
                         </h4>
                         <div class="entity-category">
-                            <a class="content-link" href="movies-blocks.html">drama</a>,
-                            <a class="content-link" href="movies-blocks.html">melodrama</a>
+                            <a class="content-link" href="movies-blocks.html">Мультфильм</a>,
+                            <a class="content-link" href="movies-blocks.html">Комедия</a>
                         </div>
                         <div class="entity-info">
                             <div class="info-lines">
                                 <div class="info info-short">
                                     <span class="text-theme info-icon"><i class="fas fa-star"></i></span>
-                                    <span class="info-text">6,8</span>
+                                    <span class="info-text">6,9</span>
                                     <span class="info-rest">/10</span>
                                 </div>
                                 <div class="info info-short">
                                     <span class="text-theme info-icon"><i class="fas fa-clock"></i></span>
-                                    <span class="info-text">122</span>
+                                    <span class="info-text">87</span>
                                     <span class="info-rest">&nbsp;min</span>
                                 </div>
+                                <div class="info info-short">
+                                    <span class="text-theme info-icon"><i class="fas fa-calendar-alt"></i></span>
+                                    <span class="info-text">Дата выхода</span>
+                                </div>
                             </div>
                         </div>
-                        <p class="text-short entity-text">In luctus ac nisi vel vulputate. Sed blandit augue ut ex eleifend, ac posuere dolor sollicitudin. Mauris tempus euismod mauris id semper. Vestibulum ut vulputate elit, id ultricies libero. Aenean laoreet mi augue, at iaculis nisi aliquam eu. Quisque nec ipsum vehicula diam egestas porttitor eu vitae ex. Curabitur auctor tortor elementum leo faucibus, sit amet imperdiet ante maximus. Nulla viverra tortor dignissim purus placerat dapibus nec ut orci. Quisque efficitur nulla quis pulvinar dapibus. Phasellus sodales tortor sit amet sagittis condimentum. Donec ac ultricies ex. In odio leo, rhoncus aliquam bibendum sit amet, varius sit amet nisl.
+                        <p class="text-short entity-text">Что делают домашние животные, пока хозяева пропадают на работе? С тоской смотрят в окно? Смиренно дремлют на коврике у двери? Как бы не так. Они ведут свою тайную жизнь.
+
                         </p>
-                    </div>
-                    <div class="entity-extra">
-                        <div class="text-uppercase entity-extra-title">Showtime</div>
-                        <div class="entity-showtime">
-                            <div class="showtime-wrap">
-                                <div class="showtime-item">
-                                    <span class="disabled btn-time btn" aria-disabled="true">11 : 30</span>
-                                </div>
-                                <div class="showtime-item">
-                                    <a class="btn-time btn" aria-disabled="false" href="#">13 : 25</a>
-                                </div>
-                                <div class="showtime-item">
-                                    <a class="btn-time btn" aria-disabled="false" href="#">16 : 07</a>
-                                </div>
-                                <div class="showtime-item">
-                                    <a class="btn-time btn" aria-disabled="false" href="#">19 : 45</a>
-                                </div>
-                                <div class="showtime-item">
-                                    <a class="btn-time btn" aria-disabled="false" href="#">21 : 30</a>
-                                </div>
-                                <div class="showtime-item">
-                                    <a class="btn-time btn" aria-disabled="false" href="#">23 : 10</a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </article>
                 <article class="movie-line-entity">
                     <div class="entity-poster" data-role="hover-wrap">
                         <div class="embed-responsive embed-responsive-poster">
-                            <img class="embed-responsive-item" src="http://via.placeholder.com/340x510" alt="" />
+                            <img class="embed-responsive-item" src="images/posters/jumanji.jpg" alt="" />
                         </div>
                         <div class="d-over bg-theme-lighted collapse animated faster" data-show-class="fadeIn show" data-hide-class="fadeOut show">
                             <div class="entity-play">
@@ -729,11 +686,11 @@
                     </div>
                     <div class="entity-content">
                         <h4 class="entity-title">
-                            <a class="content-link" href="movie-info-sidebar-right.html">High castle</a>
+                            <a class="content-link" href="movie-info-sidebar-right.html">Джуманджи</a>
                         </h4>
                         <div class="entity-category">
-                            <a class="content-link" href="movies-blocks.html">horror</a>,
-                            <a class="content-link" href="movies-blocks.html">sci-fi</a>
+                            <a class="content-link" href="movies-blocks.html">Комедия</a>,
+                            <a class="content-link" href="movies-blocks.html">Приключения</a>
                         </div>
                         <div class="entity-info">
                             <div class="info-lines">
@@ -744,23 +701,24 @@
                                 </div>
                                 <div class="info info-short">
                                     <span class="text-theme info-icon"><i class="fas fa-clock"></i></span>
-                                    <span class="info-text">141</span>
+                                    <span class="info-text">104</span>
                                     <span class="info-rest">&nbsp;min</span>
+                                </div>
+                                <div class="info info-short">
+                                    <span class="text-theme info-icon"><i class="fas fa-calendar-alt"></i></span>
+                                    <span class="info-text">Дата выхода</span>
                                 </div>
                             </div>
                         </div>
-                        <p class="text-short entity-text">Aenean molestie turpis eu aliquam bibendum. Nulla facilisi. Vestibulum quis risus in lorem suscipit tempor. Morbi consectetur enim vitae justo finibus consectetur. Mauris volutpat nunc dui, quis condimentum dolor efficitur et. Phasellus rhoncus porta nunc eu fermentum. Nullam vitae erat hendrerit, tempor arcu eget, eleifend tortor.
+                        <p class="text-short entity-text">Случайно обнаружив настольную игру со странным названием «Джуманджи», Алан Пэрриш на глазах изумленной подружки перенёсся в джунгли. Он находился в этом мире до тех пор, пока двое ни о чем не подозревающих подростков не нашли игру и не сняли волшебные чары, освободив Алана из многолетнего плена. Теперь им предстоит решить нелегкую задачу - пройти немыслимые препятствия и одержать победу над силами магии.
+
                         </p>
-                    </div>
-                    <div class="entity-extra">
-                        <div class="text-uppercase entity-extra-title">In archive</div>
-                        <div></div>
                     </div>
                 </article>
                 <article class="movie-line-entity">
                     <div class="entity-poster" data-role="hover-wrap">
                         <div class="embed-responsive embed-responsive-poster">
-                            <img class="embed-responsive-item" src="http://via.placeholder.com/340x510" alt="" />
+                            <img class="embed-responsive-item" src="images/posters/pirates.jpg" alt="" />
                         </div>
                         <div class="d-over bg-theme-lighted collapse animated faster" data-show-class="fadeIn show" data-hide-class="fadeOut show">
                             <div class="entity-play">
@@ -772,31 +730,124 @@
                     </div>
                     <div class="entity-content">
                         <h4 class="entity-title">
-                            <a class="content-link" href="movie-info-sidebar-right.html">Music town</a>
+                            <a class="content-link" href="movie-info-sidebar-right.html">Пираты Карибского Моря: Проклятие Черной Жемчужины</a>
                         </h4>
                         <div class="entity-category">
-                            <a class="content-link" href="movies-blocks.html">adventure</a>
+                            <a class="content-link" href="movies-blocks.html">Приключения</a>,
+                            <a class="content-link" href="movies-blocks.html">Фэнтези</a>
                         </div>
                         <div class="entity-info">
                             <div class="info-lines">
                                 <div class="info info-short">
                                     <span class="text-theme info-icon"><i class="fas fa-star"></i></span>
-                                    <span class="info-text">8,8</span>
+                                    <span class="info-text">8,4</span>
                                     <span class="info-rest">/10</span>
                                 </div>
                                 <div class="info info-short">
                                     <span class="text-theme info-icon"><i class="fas fa-clock"></i></span>
-                                    <span class="info-text">124</span>
+                                    <span class="info-text">143</span>
                                     <span class="info-rest">&nbsp;min</span>
+                                </div>
+                                <div class="info info-short">
+                                    <span class="text-theme info-icon"><i class="fas fa-calendar-alt"></i></span>
+                                    <span class="info-text">Дата выхода</span>
                                 </div>
                             </div>
                         </div>
-                        <p class="text-short entity-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur ultrices justo a pellentesque. Praesent venenatis dolor nec tempus lacinia. Donec ac condimentum dolor. Nullam sit amet nisl hendrerit, pharetra nulla convallis, malesuada diam. Donec ornare nisl eu lectus rhoncus, at malesuada metus rutrum. Aliquam a nisl vulputate, sodales ipsum aliquam, tempus purus. Suspendisse convallis, lectus nec vehicula sollicitudin, lorem sapien rhoncus dolor, vel lacinia urna velit ullamcorper nisi. Phasellus pellentesque, magna nec gravida feugiat, est magna suscipit ligula, vel porttitor nunc enim at nibh. Sed varius sit amet leo vitae consequat.
+                        <p class="text-short entity-text">Жизнь харизматичного авантюриста, капитана Джека Воробья, полная увлекательных приключений, резко меняется, когда его заклятый враг капитан Барбосса похищает корабль Джека Черную Жемчужину, а затем нападает на Порт Ройал и крадет прекрасную дочь губернатора Элизабет Свонн.
+                            Друг детства Элизабет Уилл Тернер вместе с Джеком возглавляет спасательную экспедицию на самом быстром корабле Британии, чтобы вызволить девушку и заодно отобрать у злодея Черную Жемчужину. Вслед за этой парочкой отправляется амбициозный коммодор Норрингтон, который к тому же числится женихом Элизабет.
+                            Однако Уилл не знает, что над Барбоссой висит вечное проклятие, при лунном свете превращающее его с командой в живых скелетов. Проклятье будет снято лишь тогда, когда украденное золото Ацтеков будет возвращено пиратами на старое место.
+                            
                         </p>
                     </div>
-                    <div class="entity-extra">
-                        <div class="text-uppercase entity-extra-title">In archive</div>
-                        <div></div>
+                </article>
+                <article class="movie-line-entity">
+                    <div class="entity-poster" data-role="hover-wrap">
+                        <div class="embed-responsive embed-responsive-poster">
+                            <img class="embed-responsive-item" src="images/posters/doctor_dream.jpg" alt="" />
+                        </div>
+                        <div class="d-over bg-theme-lighted collapse animated faster" data-show-class="fadeIn show" data-hide-class="fadeOut show">
+                            <div class="entity-play">
+                                <a class="action-icon-theme action-icon-bordered rounded-circle" href="https://www.youtube.com/watch?v=d96cjJhvlMA" data-magnific-popup="iframe">
+                                    <span class="icon-content"><i class="fas fa-play"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="entity-content">
+                        <h4 class="entity-title">
+                            <a class="content-link" href="movie-info-sidebar-right.html">Доктор Сон</a>
+                        </h4>
+                        <div class="entity-category">
+                            <a class="content-link" href="movies-blocks.html">Драма</a>
+                            <a class="content-link" href="movies-blocks.html">Триллер</a>
+                        </div>
+                        <div class="entity-info">
+                            <div class="info-lines">
+                                <div class="info info-short">
+                                    <span class="text-theme info-icon"><i class="fas fa-star"></i></span>
+                                    <span class="info-text">7.3</span>
+                                    <span class="info-rest">/10</span>
+                                </div>
+                                <div class="info info-short">
+                                    <span class="text-theme info-icon"><i class="fas fa-clock"></i></span>
+                                    <span class="info-text">152</span>
+                                    <span class="info-rest">&nbsp;min</span>
+                                </div>
+                                <div class="info info-short">
+                                    <span class="text-theme info-icon"><i class="fas fa-calendar-alt"></i></span>
+                                    <span class="info-text">Дата выхода</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-short entity-text">Прошло много лет с тех пор, как мальчик с паранормальными способностями Дэнни Торранс пережил кошмарный сезон в отеле «Оверлук», где стал свидетелем безумия и гибели своего отца. Повзрослев, Дэн вёл жизнь маргинала-алкоголика, а теперь пытается завязать и даже устроился на работу в дом престарелых. Там он безошибочно определяет, кому из постояльцев подошла очередь покинуть этот мир, за что и получил прозвище Доктор Сон. Однажды с Дэном устанавливает связь невероятно одарённая «сияющая» девочка Абра. Вскоре ей потребуется его помощь, чтобы противостоять членам организации «Истинный узел» – группы охотников за особенными детьми.
+
+                        </p>
+                    </div>
+                </article>
+                <article class="movie-line-entity">
+                    <div class="entity-poster" data-role="hover-wrap">
+                        <div class="embed-responsive embed-responsive-poster">
+                            <img class="embed-responsive-item" src="images/posters/strange.jpg" alt="" />
+                        </div>
+                        <div class="d-over bg-theme-lighted collapse animated faster" data-show-class="fadeIn show" data-hide-class="fadeOut show">
+                            <div class="entity-play">
+                                <a class="action-icon-theme action-icon-bordered rounded-circle" href="https://www.youtube.com/watch?v=d96cjJhvlMA" data-magnific-popup="iframe">
+                                    <span class="icon-content"><i class="fas fa-play"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="entity-content">
+                        <h4 class="entity-title">
+                            <a class="content-link" href="movie-info-sidebar-right.html">Доктор Стрэндж. Мультивселенная безумия</a>
+                        </h4>
+                        <div class="entity-category">
+                            <a class="content-link" href="movies-blocks.html">Ужасы</a>
+                            <a class="content-link" href="movies-blocks.html">Супергерои</a>
+                            <a class="content-link" href="movies-blocks.html">Приключения</a>
+                        </div>
+                        <div class="entity-info">
+                            <div class="info-lines">
+                                <div class="info info-short">
+                                    <span class="text-theme info-icon"><i class="fas fa-star"></i></span>
+                                    <span class="info-text">7.3</span>
+                                    <span class="info-rest">/10</span>
+                                </div>
+                                <div class="info info-short">
+                                    <span class="text-theme info-icon"><i class="fas fa-clock"></i></span>
+                                    <span class="info-text">120</span>
+                                    <span class="info-rest">&nbsp;min</span>
+                                </div>
+                                <div class="info info-short">
+                                    <span class="text-theme info-icon"><i class="fas fa-calendar-alt"></i></span>
+                                    <span class="info-text">Дата выхода</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-short entity-text">Продолжение магических приключений Доктора Стрэнджа в новых мистических мирах и в противостоянии с новыми врагами.
+
+                        </p>
                     </div>
                 </article>
                 <div class="section-bottom">
@@ -823,69 +874,69 @@
                                     <span class="svg-content svg-fill-theme" data-svg="./images/svg/logo-part.svg"></span>
                                 </span>
                                 <span class="logo-text text-uppercase">
-                                    <span>M</span>emico</span>
+                                    <span></span>СмотриКино</span>
                             </span>
                         </a>
                         <div class="footer-content">
-                            <p class="footer-text">Sidestate NSW 4132,
-                                <br/>Australia</p>
-                            <p class="footer-text">Call us:&nbsp;&nbsp;(555) 555-0312</p>
+                            <p class="footer-text">
+                                <br/>Россия</p>
+                            <p class="footer-text">Позвонить:&nbsp;&nbsp;(812)555-55-56</p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-3">
-                        <h5 class="footer-title text-uppercase">Movies</h5>
+                        <h5 class="footer-title text-uppercase">Фильмы</h5>
                         <ul class="list-unstyled list-wide footer-content">
                             <li>
-                                <a class="content-link" href="#">All Movies</a>
+                                <a class="content-link" href="#">Все фильмы</a>
                             </li>
                             <li>
-                                <a class="content-link" href="#">Upcoming movies</a>
+                                <a class="content-link" href="#"></a>
                             </li>
                             <li>
-                                <a class="content-link" href="#">Top 100 movies</a>
+                                <a class="content-link" href="#">Toп 10</a>
                             </li>
                             <li>
-                                <a class="content-link" href="#">Blockbasters</a>
+                                <a class="content-link" href="#">Блокбакстеры</a>
                             </li>
                             <li>
-                                <a class="content-link" href="#">British movies</a>
+                                <!-- <a class="content-link" href="#">British movies</a> -->
                             </li>
                             <li>
-                                <a class="content-link" href="#">Summer movies collection</a>
+                                <!-- <a class="content-link" href="#">Summer movies collection</a> -->
                             </li>
                             <li>
-                                <a class="content-link" href="#">Movie trailers</a>
+                                <a class="content-link" href="#">Трейлеры</a>
                             </li>
                         </ul>
                     </div>
                     <div class="col-sm-6 col-lg-3">
-                        <h5 class="footer-title text-uppercase">Information</h5>
+                        <h5 class="footer-title text-uppercase">Информация</h5>
                         <ul class="list-unstyled list-wide footer-content">
                             <li>
                                 <a class="content-link" href="#">Schedule</a>
                             </li>
                             <li>
-                                <a class="content-link" href="#">News</a>
+                                <a class="content-link" href="#">Новости</a>
                             </li>
                             <li>
-                                <a class="content-link" href="#">Contact us</a>
+                                <a class="content-link" href="#">Контакты</a>
                             </li>
                             <li>
-                                <a class="content-link" href="#">Community</a>
+                                <!-- <a class="content-link" href="#">Community</a> -->
                             </li>
                             <li>
-                                <a class="content-link" href="#">Blog</a>
+                                <a class="content-link" href="#">Блок</a>
                             </li>
                             <li>
                                 <a class="content-link" href="#">Events</a>
                             </li>
                             <li>
-                                <a class="content-link" href="#">Help center</a>
+                                <a class="content-link" href="#">Помощь</a>
                             </li>
                         </ul>
                     </div>
                     <div class="col-sm-6 col-lg-3">
-                        <h5 class="footer-title text-uppercase">Follow</h5>
+                        <h5 class="footer-title text-uppercase">Поделиться</h5>
                         <ul class="list-wide footer-content list-inline">
                             <li class="list-inline-item">
                                 <a class="content-link" href="#"><i class="fab fa-slack-hash"></i></a>
@@ -911,7 +962,7 @@
                             <p class="footer-text">Get latest movie news right away with our subscription</p>
                             <form class="footer-form" autocomplete="off">
                                 <div class="input-group">
-                                    <input class="form-control" name="email" type="email" placeholder="Your email" />
+                                    <input class="form-control" name="email" type="email" placeholder="Ваш email" />
                                     <div class="input-group-append">
                                         <button class="btn btn-theme" type="submit"><i class="fas fa-angle-right"></i></button>
                                     </div>
