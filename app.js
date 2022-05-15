@@ -1,9 +1,14 @@
 const express = require('express');
+const films = require('./data/films.json');
 
-const app = express()
+const app = express();
+app.set('view engine', 'ejs');
+app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-  res.send('Hello World');
+  res.render('pages/index', {
+    films: films
+  })
 });
 
 app.get('/contacts', (req, res) => {
