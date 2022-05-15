@@ -1,0 +1,16 @@
+[{ 
+    "name": "avengers",
+    "time": "286",
+    "poster": "images/posters/avengers.jpg",
+    "genres": ["Супергерои", "боевик", "комедия", "триллер", "ужасы"]
+}, { 
+    "name": "avengers 2",
+    "time": "2862",
+    "poster": "images/posters/avengers.jpg",
+    "genres": ["Супергерои", "боевик", "комедия", "триллер", "ужасы 2"]
+}, {
+    "name": "Двойной щелчок",
+    "time": "10090887897",
+    "poster": "images/posters/it.jpg",
+    "genres": ["Супергерои", "боевик", "комедия", "триллер", "ужасы 2"]
+}] 
