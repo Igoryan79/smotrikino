@@ -1,7 +1,7 @@
 {
   "name": "memico-master",
   "version": "1.0.0",
-  "description": "Memico is a responsive bootstrap HTML template which is the best for cinema, theatres, home movie website and any movie marketing.",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon app.js"

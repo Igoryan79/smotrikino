@@ -1,11 +1,11 @@
 <article class="movie-line-entity">
     <div class="entity-poster" data-role="hover-wrap">
         <div class="embed-responsive embed-responsive-poster">
-            <img class="embed-responsive-item" src="<%= film.poster %>" alt="" />
+            <img class="embed-responsive-item" src="#" alt="" />
         </div>
         <div class="d-over bg-theme-lighted collapse animated faster" data-show-class="fadeIn show" data-hide-class="fadeOut show">
             <div class="entity-play">
-                <a class="action-icon-theme action-icon-bordered rounded-circle" href="https://www.youtube.com/watch?v=<%= film.tiser %>" data-magnific-popup="iframe">
+                <a class="action-icon-theme action-icon-bordered rounded-circle" href="https://www.youtube.com/watch?v=d96cjJhvlMA" data-magnific-popup="iframe">
                     <span class="icon-content"><i class="fas fa-play"></i></span>
                 </a>
             </div>
@@ -13,32 +13,28 @@
     </div>
     <div class="entity-content">
         <h4 class="entity-title">
-            <a class="content-link" href="/films/<%= film.id %>"><%= film.name %></a>
+            <a class="content-link" href="/directors/<%= director.id %>"><%= director.name %></a>
         </h4>
         <div class="entity-category">
-            <!-- <% for (let i=0; i<film.genres.length; i+=1) {%>
-                <% const genre = film.genres[i]; %>
-                <a class="content-link" href="#"><%= genre %></a><% if(i < film.genres.length - 1) {%>,<% }%>
-            <% } %> -->
         </div>
         <div class="entity-info">
             <div class="info-lines">
                 <div class="info info-short">
                     <span class="text-theme info-icon"><i class="fas fa-star"></i></span>
-                    <span class="info-text"><%= film.imdb %></span>
+                    <span class="info-text"></span>
                     <span class="info-rest">/10</span>
                 </div>
                 <div class="info info-short">
                     <span class="text-theme info-icon"><i class="fas fa-clock"></i></span>
-                    <span class="info-text"><%= film.time %></span>
+                    <span class="info-text"></span>
                     <span class="info-rest">&nbsp;min</span>
                 </div>
                 <div class="info info-short">
                     <span class="text-theme info-icon"><i class="fas fa-calendar-alt"></i></span>
-                    <span class="info-text"><%= film.date %></span>
+                    <span class="info-text"></span>
                 </div>
             </div>
         </div>
-        <p class="text-short entity-text"><%= film.theme %> </p>
+        <p class="text-short entity-text"></p>
     </div>
 </article>
