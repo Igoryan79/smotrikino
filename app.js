@@ -1,26 +1,22 @@
+require ("dotenv").config()
+require("./models/db")
+const Film = require("./models/Film")
 const express = require('express');
-const films = require('./data/films.json');
 const directors = require('./data/directors.json');
 
 const app = express();
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
-app.get('/', (req, res) => {
+app.get('/', async (req, res) => {
   res.render('pages/index', {
-    films: films
+    films: await Film.find()
   })
 });
 
-app.get('/films/:id', (req, res) => {
+app.get('/films/:id', async (req, res) => {
     res.render('pages/movie-info', {
-    film: films.find((film)=>{
-      if (film.id===+req.params.id) {
-        return true;
-      } else {
-        return false;
-      }
-    })
+    film: await Film.findById(req.params.id)
   })
 });
 
