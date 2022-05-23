@@ -1,8 +1,9 @@
 require ("dotenv").config()
 require("./models/db")
 const Film = require("./models/Film")
+const Director = require("./models/Director")
 const express = require('express');
-const directors = require('./data/directors.json');
+
 
 const app = express();
 app.set('view engine', 'ejs');
@@ -20,9 +21,9 @@ app.get('/films/:id', async (req, res) => {
   })
 });
 
-app.get('/directors', (req, res) => {
+app.get('/directors', async (req, res) => {
   res.render('pages/directors', {
-    directors: directors
+    directors: await Director.find()
   })
 });
 
@@ -48,7 +49,7 @@ app.get('/contacts', (req, res) => {
     res.send('All contacts');
   });
 
- 
+
 
 app.listen(3000, () => {
   console.log("Server started on http://localhost:3000");
