@@ -3,6 +3,7 @@ require("./models/db")
 const Film = require("./models/Film")
 const Director = require("./models/Director")
 const express = require('express');
+const port = process.env.PORT || 3000;
 
 
 const app = express();
@@ -45,6 +46,6 @@ app.get('/contacts', (req, res) => {
 
 
 
-app.listen(3000, () => {
-  console.log("Server started on http://localhost:3000");
+app.listen(port, () => {
+  console.log(`Server started on http://localhost:${port}`);
 })
