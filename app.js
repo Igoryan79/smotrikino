@@ -27,15 +27,9 @@ app.get('/directors', async (req, res) => {
   })
 });
 
-app.get('/directors/:id', (req, res) => {
+app.get('/directors/:id', async (req, res) => {
   res.render('pages/director', {
-  director: directors.find((director)=>{
-    if (director.id===+req.params.id) {
-      return true;
-    } else {
-      return false;
-    }
-  })
+  director: await Director.findById(req.params.id)
 })
 });
 
